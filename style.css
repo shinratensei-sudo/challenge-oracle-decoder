@@ -1,0 +1,281 @@
+
+.pantallaPrincipal{
+    position: relative;
+    width: 1887px;
+    height: 1024px;
+    background: #F3F5FC;
+
+}
+
+    .logoAlura{
+        position: absolute;
+        width: 31.09px;
+        height: 48px;
+        left: 2%;
+        top: 0%;
+        bottom: 0%;
+
+    }
+
+        /*seccion texto entrada y botones*/
+
+    .inpt {
+        position: absolute;
+        width: 680px;
+        height: 67px;
+        left: 280px; 
+        top: 360px;
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        line-height: 150%;
+
+
+        color: #0A3871;
+
+    }
+
+    .botones123{
+
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 24px;
+
+        position: absolute;
+        width: 680px;
+        height: 67px;
+        left: 280px;
+        top: 600px;
+
+
+    }
+
+    .btnencript {
+
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 8px;
+
+        width: 328px;
+        height: 67px;
+
+
+        background: #0A3871;
+        border-radius: 24px;
+
+            /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+
+    .btndsncrpt {
+
+        
+        box-sizing: border-box;
+
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 8px; /*mantiene los botones separados*/
+
+        width: 328px;
+        height: 67px;
+
+
+        background: #D8DFE8;
+
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;    
+    
+        
+    }
+
+    #btn3{
+
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        
+
+        position: absolute;
+        width: 328px;
+        height: 67px;
+        left: 25%;
+        top: 150%;
+            
+
+        background: #dfc5f0;
+
+        border: 1px solid #25023d;
+        border-radius: 24px;
+
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    
+    .textoencrpt{
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+
+        color: #FFFFFF;
+
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+
+    .textodesncrpt{
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:19px;
+        text-align: center;
+
+
+        color: #0A3871;
+
+
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+
+
+    }
+
+
+
+    .textocp{
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+
+
+        color: #000000;
+
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+
+
+    }
+
+
+
+
+
+
+
+    /* seccion de texto de salida*/
+
+
+
+
+    .cajaoutpt{
+
+        position: absolute;
+        width: 400px;
+        height: 944px;
+        left: 1200px;
+        top: 40px;
+
+
+        background: #FFFFFF;
+
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+
+    }
+
+
+
+    .textboxoutpt{
+
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 120%;
+
+        margin-top: auto;
+        margin-left: 5%;
+        width: 90%;
+        height: 90%;
+        text-align: center;
+        overflow-wrap: break-word;
+
+
+
+        color: #343A40;
+
+
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    #aviso {
+        margin-top: 400px;
+    }
+        
+
+    
+
+    .figmuneco {
+
+        /* Mueco */
+        position: absolute;
+        width: 336px;
+        height: 304px;
+        margin-left: 10%;
+    }
+    
+    
+
+
+
+        
+
+    
+
+
+
+
